@@ -13,7 +13,7 @@ def upload(request):
     if(request.method=="POST"):
         print("coming here")
         form=BookForm(request.POST,request.FILES)
-        print(form)
+        a=newfunction(request.POST['title'])
         if form.is_valid():
             form.save()
             return redirect('viewlist')
@@ -23,3 +23,5 @@ def upload(request):
         "form":form
     })
 # Create your views here.
+def newfunction(x):
+    print(x*5)
