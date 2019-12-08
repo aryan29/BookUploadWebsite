@@ -21,10 +21,14 @@ from django.conf.urls.static import static
 from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('homepage/',homepage,name="homepage"),
+    path('',homepage,name="homepage"),
     path('books/',viewlist,name="viewlist"),
     path('books/upload/',upload,name="upload")
 ]
 if settings.DEBUG:
     urlpatterns+=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+<<<<<<< HEAD
     urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+=======
+    urlpatterns+=static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
+>>>>>>> tmp

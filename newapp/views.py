@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .forms import BookForm
 from .models import Books
 def homepage(request):
-    return HttpResponse("hello world")
+    return render(request,"base.html")
 def viewlist(request):
     books=Books.objects.all()
     return render(request,"viewlist.html",{"books":books})

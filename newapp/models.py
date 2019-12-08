@@ -4,9 +4,8 @@ from django.db import models
 class Books(models.Model):
     title=models.CharField(max_length=50)
     author=models.CharField(max_length=50)
-    description=models.TextField()
+    description=models.TextField(null=True,blank=True)
     pdf=models.FileField(upload_to="books/pdfs/")
-
     def funtion(self):
         return self.title
 

@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -40,7 +39,7 @@ INSTALLED_APPS = [
     'newapp',
     'crispy_forms'
 ]
-
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -122,4 +121,12 @@ MEDIA_ROOT = "/media/"
 
 MEDIA_URL = '/media/'
 STATIC_URL = '/static/'
+<<<<<<< HEAD
 STATIC_ROOT ='/static/'
+=======
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'staticfiles')
+]
+print(STATIC_ROOT)
+>>>>>>> tmp
