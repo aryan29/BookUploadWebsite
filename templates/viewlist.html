@@ -21,13 +21,10 @@
             {{book.description}}
         </td>
         <td>
-            <a href="{{book.pdf}}">Download</a>
+            <a href="{{book.pdf.url}}">Download</a>
         </td>
     </tr>
     {% endfor %}
-    <tr>
-        <a href="http://localhost:8000/books/upload" class="btn btn-primary">Upload Books</a>
-    </tr>
     </thead>
 </table>
 {% endblock content %}
