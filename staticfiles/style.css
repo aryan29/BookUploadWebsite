@@ -1,5 +1,16 @@
 body
 {
+text-align:center;
 background-color:#6D7370;
-font-family: 'Lobster', cursive;
+}
+h1{
+font-weight:bold;
+font-size:30px;
+text-decoration: underline;
+}
+html, body {
+    width: 100%;
+}
+table {
+    margin: 0 auto;
 }
