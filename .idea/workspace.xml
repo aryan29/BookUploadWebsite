@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86b2793e-1d65-46a2-8b02-8148778312b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letsstart/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/letsstart/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letsstart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/letsstart/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/newapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/newapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/viewlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/viewlist.html" afterDir="false" />
-    </list>
+    <list default="true" id="86b2793e-1d65-46a2-8b02-8148778312b1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/letsstart/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="315">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
@@ -65,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/staticfiles/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -131,9 +121,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="356" />
-    <option name="y" value="311" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-61" />
+    <option name="y" value="410" />
     <option name="width" value="1690" />
     <option name="height" value="718" />
   </component>
@@ -159,6 +149,19 @@
               <item name="letsstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="letsstart" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letsstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letsstart" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letsstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letsstart" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="letsstart" type="b2602c69:ProjectViewProjectNode" />
@@ -236,8 +239,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="261" width="1690" height="718" extended-state="0" />
-    <editor active="true" />
+    <frame x="442" y="510" width="1690" height="718" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14208308" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -358,20 +360,20 @@
     <entry file="file://$PROJECT_DIR$/static/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/letsstart/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staticfiles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letsstart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
